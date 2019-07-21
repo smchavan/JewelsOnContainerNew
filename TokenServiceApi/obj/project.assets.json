@@ -12766,11 +12766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smvnc\\source\\repos\\Microservices\\TokenServiceApi\\TokenServiceApi.csproj",
+      "projectUniqueName": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\TokenServiceApi\\TokenServiceApi.csproj",
       "projectName": "TokenServiceApi",
-      "projectPath": "C:\\Users\\smvnc\\source\\repos\\Microservices\\TokenServiceApi\\TokenServiceApi.csproj",
+      "projectPath": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\TokenServiceApi\\TokenServiceApi.csproj",
       "packagesPath": "C:\\Users\\smvnc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smvnc\\source\\repos\\Microservices\\TokenServiceApi\\obj\\",
+      "outputPath": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\TokenServiceApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

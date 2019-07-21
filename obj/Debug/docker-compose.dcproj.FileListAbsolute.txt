@@ -7,3 +7,16 @@ C:\Users\smvnc\source\repos\Microservices\bin\Debug\WebMvc.pdb
 C:\Users\smvnc\source\repos\Microservices\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Users\smvnc\source\repos\Microservices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\smvnc\source\repos\Microservices\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\WebMvc.Views.dll
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\WebMvc.Views.pdb
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\TokenServiceApi.Views.dll
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\TokenServiceApi.Views.pdb
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\ProductCatalogAPI.dll
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\TokenServiceApi.dll
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\WebMvc.dll
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\ProductCatalogAPI.pdb
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\WebMvc.pdb
+C:\Users\smvnc\source\repos\JewelsOncontainers\bin\Debug\TokenServiceApi.pdb
+C:\Users\smvnc\source\repos\JewelsOncontainers\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\smvnc\source\repos\JewelsOncontainers\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\smvnc\source\repos\JewelsOncontainers\obj\Debug\docker-compose.dcproj.CopyComplete

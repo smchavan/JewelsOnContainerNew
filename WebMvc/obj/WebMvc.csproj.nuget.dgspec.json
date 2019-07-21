@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smvnc\\source\\repos\\Microservices\\WebMvc\\WebMvc.csproj": {}
+    "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\WebMvc\\WebMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smvnc\\source\\repos\\Microservices\\WebMvc\\WebMvc.csproj": {
+    "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\WebMvc\\WebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smvnc\\source\\repos\\Microservices\\WebMvc\\WebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\WebMvc\\WebMvc.csproj",
         "projectName": "WebMvc",
-        "projectPath": "C:\\Users\\smvnc\\source\\repos\\Microservices\\WebMvc\\WebMvc.csproj",
+        "projectPath": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\WebMvc\\WebMvc.csproj",
         "packagesPath": "C:\\Users\\smvnc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smvnc\\source\\repos\\Microservices\\WebMvc\\obj\\",
+        "outputPath": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\WebMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

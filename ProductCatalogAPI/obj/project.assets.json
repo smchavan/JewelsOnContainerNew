@@ -12775,11 +12775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smvnc\\source\\repos\\Microservices\\ProductCatalogAPI\\ProductCatalogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\ProductCatalogAPI\\ProductCatalogAPI.csproj",
       "projectName": "ProductCatalogAPI",
-      "projectPath": "C:\\Users\\smvnc\\source\\repos\\Microservices\\ProductCatalogAPI\\ProductCatalogAPI.csproj",
+      "projectPath": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\ProductCatalogAPI\\ProductCatalogAPI.csproj",
       "packagesPath": "C:\\Users\\smvnc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smvnc\\source\\repos\\Microservices\\ProductCatalogAPI\\obj\\",
+      "outputPath": "C:\\Users\\smvnc\\source\\repos\\JewelsOncontainers\\ProductCatalogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
