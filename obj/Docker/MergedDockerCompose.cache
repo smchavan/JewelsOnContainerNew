@@ -14,13 +14,13 @@ services:
       DatabaseServer: mssqlserver
       DatabaseUser: sa
       DatabaseUserPassword: ProductApi(!)
-      ExternalCatalogBaseUrl: http://localhost:5080
+      ExternalCatalogBaseUrl: http://localhost:5010
     image: jewels/catalogapi
     networks:
       backend: null
       frontend: null
     ports:
-    - published: 5080
+    - published: 5010
       target: 80
   mssqlserver:
     container_name: catalogdb
@@ -52,7 +52,7 @@ services:
       target: 80
   webmvc:
     build:
-      context: C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc
+      context: C:\Users\smvnc\source\repos\JewelsOncontainers\webmvc
       dockerfile: Dockerfile
     container_name: webshop
     depends_on:
@@ -62,7 +62,7 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       CallBackUrl: http://localhost:5220
       CatalogUrl: http://catalog
-      IdentityUrl: http://10.0.75.1:5030
+      IdentityUrl: http://192.168.1.22:5030
     image: jewels/webmvc
     networks:
       frontend: null

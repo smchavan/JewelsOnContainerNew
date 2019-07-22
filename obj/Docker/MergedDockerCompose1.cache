@@ -20,7 +20,7 @@ services:
       DatabaseServer: mssqlserver
       DatabaseUser: sa
       DatabaseUserPassword: ProductApi(!)
-      ExternalCatalogBaseUrl: http://localhost:5080
+      ExternalCatalogBaseUrl: http://localhost:5010
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
     image: jewels/catalogapi:dev
     labels:
@@ -35,7 +35,7 @@ services:
       backend: null
       frontend: null
     ports:
-    - published: 5080
+    - published: 5010
       target: 80
     volumes:
     - C:\Users\smvnc\source\repos\JewelsOncontainers\ProductCatalogAPI:/app:rw
@@ -98,7 +98,7 @@ services:
     - C:\Users\smvnc\.nuget\packages:/root/.nuget/packages:ro
   webmvc:
     build:
-      context: C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc
+      context: C:\Users\smvnc\source\repos\JewelsOncontainers\webmvc
       dockerfile: Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -114,7 +114,7 @@ services:
       CallBackUrl: http://localhost:5220
       CatalogUrl: http://catalog
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      IdentityUrl: http://10.0.75.1:5030
+      IdentityUrl: http://192.168.1.22:5030
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
     image: jewels/webmvc:dev
     labels:
@@ -131,7 +131,7 @@ services:
     - published: 5220
       target: 80
     volumes:
-    - C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc:/app:rw
+    - C:\Users\smvnc\source\repos\JewelsOncontainers\webmvc:/app:rw
     - C:\Users\smvnc\vsdbg\vs2017u5:/remote_debugger:ro
     - C:\Users\smvnc\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\smvnc\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro

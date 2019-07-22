@@ -65,7 +65,7 @@ services:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
     volumes:
-      - C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc:/app
+      - C:\Users\smvnc\source\repos\JewelsOncontainers\webmvc:/app
       - C:\Users\smvnc\vsdbg\vs2017u5:/remote_debugger:ro
       - C:\Users\smvnc\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Microsoft\Xamarin\NuGet\:/root/.nuget/fallbackpackages:ro
