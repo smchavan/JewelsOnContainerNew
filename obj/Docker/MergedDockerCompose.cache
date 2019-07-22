@@ -42,7 +42,7 @@ services:
     - mssqlserver
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      MvcClient: http://localhost:5220
+      MvcClient: http://localhost:5225
     image: jewels/tokenapi
     networks:
       backend: null
@@ -60,13 +60,13 @@ services:
     - tokenserver
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      CallBackUrl: http://localhost:5220
+      CallBackUrl: http://localhost:5225
       CatalogUrl: http://catalog
       IdentityUrl: http://192.168.1.22:5030
     image: jewels/webmvc
     networks:
       frontend: null
     ports:
-    - published: 5220
+    - published: 5225
       target: 80
 version: '3.4'

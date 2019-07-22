@@ -41,7 +41,6 @@ C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\bin\Debug\netcoreapp2.1\We
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\bin\Debug\netcoreapp2.1\WebMvc.pdb
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\bin\Debug\netcoreapp2.1\WebMvc.Views.dll
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\bin\Debug\netcoreapp2.1\WebMvc.Views.pdb
-C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.csprojAssemblyReference.cache
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.csproj.CoreCompileInputs.cache
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.RazorAssemblyInfo.cache
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.RazorAssemblyInfo.cs
@@ -72,3 +71,4 @@ C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\We
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.dll
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.pdb
 C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.csproj.CopyComplete
+C:\Users\smvnc\source\repos\JewelsOncontainers\WebMvc\obj\Debug\netcoreapp2.1\WebMvc.csprojAssemblyReference.cache

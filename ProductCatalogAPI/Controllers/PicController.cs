@@ -18,8 +18,8 @@ namespace ProductCatalogAPI.Controllers
         {
             _env = env;
         }
-        //GET api/pic/1
-        [HttpGet("id")]
+        //GET api/pic/1 [HttpGet("{id}")]
+        [HttpGet("{id}")]
         public IActionResult GetImage(int id)
         {
 

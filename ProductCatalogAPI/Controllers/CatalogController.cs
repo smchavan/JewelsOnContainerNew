@@ -94,7 +94,7 @@ namespace ProductCatalogAPI.Controllers
         {
             items.ForEach(
                 c=> c.PictureUrl = c.PictureUrl.Replace("http://externalcatalogbaseurltobereplaced",
-                _config["ExternamCatalogBaseUrl"]));
+                _config["ExternalCatalogBaseUrl"]));
             return items;
         }
 

@@ -71,7 +71,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      MvcClient: http://localhost:5220
+      MvcClient: http://localhost:5225
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
     image: jewels/tokenapi:dev
     labels:
@@ -111,7 +111,7 @@ services:
     entrypoint: tail -f /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      CallBackUrl: http://localhost:5220
+      CallBackUrl: http://localhost:5225
       CatalogUrl: http://catalog
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
       IdentityUrl: http://192.168.1.22:5030
@@ -128,7 +128,7 @@ services:
     networks:
       frontend: null
     ports:
-    - published: 5220
+    - published: 5225
       target: 80
     volumes:
     - C:\Users\smvnc\source\repos\JewelsOncontainers\webmvc:/app:rw
